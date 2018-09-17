@@ -1,4 +1,5 @@
 # Initializer for Reddit login
+require 'redd'
 
 SESSION = Redd.it(
   user_agent = ENV['user_agent']
