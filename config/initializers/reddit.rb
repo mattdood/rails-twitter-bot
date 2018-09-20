@@ -1,10 +1,10 @@
 # Initializer for Reddit login
-require 'redd'
 
 SESSION = Redd.it(
-  user_agent = ENV['user_agent']
-  client_id = ENV['client_id']
-  secret = ENV['secret']
-  username = ENV['username']
-  password = ENV['password']
-)
+  config.user_agent = ENV['user_agent']
+  config.client_id = ENV['client_id']
+  config.secret = ENV['secret']
+  config.username = ENV['username']
+  config.password = ENV['password']
+  )
+end

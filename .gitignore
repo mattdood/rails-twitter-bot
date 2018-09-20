@@ -31,3 +31,6 @@
 
 # Ignore notes
 notes.txt
+
+# Reddit temporarily ignore
+/config/initializers/reddit.rb
